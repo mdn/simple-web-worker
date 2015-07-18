@@ -8,7 +8,7 @@ if (window.Worker) { //check if Browser supports the Worker api.
 	var myWorker = new Worker("worker.js");
 
 	first.onchange = function() {
-	  myWorker.postMessage([first.value,second.value]); //seding message as array to the worker
+	  myWorker.postMessage([first.value,second.value]); //sending message as array to the worker
 	  console.log('Message posted to worker');
 	};
 
