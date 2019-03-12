@@ -3,13 +3,25 @@ html {
 	font-family: sans-serif;
 }
 
-h1 {
-	margin: 0;
-	font-size: 15vw;
-	letter-spacing: -0.2rem;
+.background_text{
 	position: absolute;
 	top: 0;
 	z-index: -1;
+	margin: 0;
+}
+
+h1, h2{
+	margin:0;
+}
+
+h1 {
+	font-size: 15vw;
+	color: #ccc;
+}
+
+h2 {
+	font-size: 11vw;
+	color: #333;
 }
 
 p {
