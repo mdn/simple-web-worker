@@ -44,3 +44,7 @@ p {
   padding-bottom: 1rem;
 }
 
+.controls input{
+	padding: 1vw;
+}
+
