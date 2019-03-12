@@ -18,12 +18,18 @@ p {
 
 .controls {
 	padding: 4vw;
-	width: 75%;
 	margin: 10vw auto;
+	width: 75%;
+
+	border: 5px solid #333;
+	border-radius: 1em;
+
+	opacity: 0.1;
+
 	background-color: rgba(255,255,255,0.7);
-	border: 5px solid black;
-	opacity: 0.3;
-	transition: 1s all;
+	box-shadow: 3px 3px 5px #222;
+
+	transition: 0.8s ease-in-out;
 }
 
 .controls:hover, .controls:focus {
