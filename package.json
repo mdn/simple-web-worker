@@ -1,0 +1,24 @@
+{
+  "name": "simple-web-worker",
+  "version": "1.0.0",
+  "description": "A simple web worker test. [View this demo live](https://mdn.github.io/simple-web-worker/).",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdn/simple-web-worker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdn/simple-web-worker/issues"
+  },
+  "homepage": "https://github.com/mdn/simple-web-worker#readme",
+  "devDependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.14.1"
+  }
+}

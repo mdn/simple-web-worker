@@ -9,3 +9,4 @@ onmessage = function(e) {
     postMessage(workerResult);
   }
 }
+console.log('worker started')
