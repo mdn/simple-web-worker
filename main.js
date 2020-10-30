@@ -7,13 +7,13 @@ if (window.Worker) {
 	const myWorker = new Worker("worker.js");
 
 	first.onchange = function() {
-	  myWorker.postMessage([first.value, second.value]);
-	  console.log('Message posted to worker');
+		myWorker.postMessage([first.value, second.value]);
+		console.log('Message posted to worker');
 	}
 
 	second.onchange = function() {
-	  myWorker.postMessage([first.value, second.value]);
-	  console.log('Message posted to worker');
+		myWorker.postMessage([first.value, second.value]);
+		console.log('Message posted to worker');
 	}
 
 	myWorker.onmessage = function(e) {
